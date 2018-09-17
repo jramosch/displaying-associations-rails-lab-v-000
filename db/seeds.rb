@@ -23,4 +23,4 @@ sias_songs = Song.create([
 
 artists.first.songs << drakes_songs
 artists[1].songs << cardis_songs
-artist[2].songs << sias_songs
+artists[2].songs << sias_songs
