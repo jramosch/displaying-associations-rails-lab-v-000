@@ -20,3 +20,7 @@ cardis_songs = Song.create([
 sias_songs = Song.create([
   {title: 'Chandelier'}, {title: 'Cheap Thrills'}
   ])
+
+artists.first.songs << drakes_songs
+artists[1].songs << cardis_songs
+artist[2].songs << sias_songs
